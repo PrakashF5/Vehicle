@@ -13,7 +13,7 @@ public class BikeDao {
 @Autowired
 BikeRepository br;
 
-public String postDetails(List<Bike> b) {
+public String postAllDetails(List<Bike> b) {
 	 br.saveAll(b);
 	 return "Bike details posted successfully";
 }

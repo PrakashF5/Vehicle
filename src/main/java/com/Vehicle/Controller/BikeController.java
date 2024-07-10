@@ -18,9 +18,9 @@ public class BikeController {
 @Autowired
 BikeService bs;
 
-@PostMapping(value="/postDetails")
-public String postDetails(@RequestBody List<Bike> a) {
-	return bs.postDetails(a);
+@PostMapping(value="/postAllDetails")
+public String postAllDetails(@RequestBody List<Bike> a) {
+	return bs.postAllDetails(a);
 }
 
 @GetMapping(value="/getDetails")

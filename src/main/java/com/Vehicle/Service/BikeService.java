@@ -16,8 +16,8 @@ public class BikeService {
 @Autowired
 BikeDao bd;
 
-public String postDetails(List<Bike> b) {
-	return bd.postDetails(b);
+public String postAllDetails(List<Bike> b) {
+	return bd.postAllDetails(b);
 }
 
 public List<Bike> getDetails() {
