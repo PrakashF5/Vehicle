@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.Vehicle.Entity.Bike;
 import com.Vehicle.Exception.BrandNotFoundException;
 import com.Vehicle.Service.BikeService;
- 
+
 @RestController
 public class BikeController {
 @Autowired
