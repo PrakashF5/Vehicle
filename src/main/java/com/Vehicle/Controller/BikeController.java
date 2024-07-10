@@ -19,8 +19,8 @@ public class BikeController {
 BikeService bs;
 
 @PostMapping(value="/postDetails")
-public String postDetails(@RequestBody List<Bike> b) {
-	return bs.postDetails(b);
+public String postDetails(@RequestBody List<Bike> a) {
+	return bs.postDetails(a);
 }
 
 @GetMapping(value="/getDetails")
